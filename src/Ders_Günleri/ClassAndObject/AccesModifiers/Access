@@ -1,0 +1,19 @@
+Access Modifiers (Erişim düzenleyicileri)
+
+public, private, protected, default
+
+1- Class içi erişim
+2- Paket içi erişim
+3- Proje içi erişim
+
+public : Bütün proje içinden erişime açar, kullanıldığında heryerden erişilebilir.
+         class, metod, fields, constructor,'larda kullanılabilir.
+
+private : Sadece class içinden erişime izin verir, kullanıldığında class içinden erişim sağlanabilir.
+         metod, field'larda kullanılabilir.
+
+default : Sadece paket içinden erişime açar, friendly access modifiers denir, kullanıldığında sadece paketten erişilebilir.
+          class, metod, fields, constructor'larda kullanılabilir.
+
+protected : default gibidir, tek farkı bir şekilde farklı paketlerden de erişilebilir.
+            kalıtım konusunda tekrar işlenicek.
